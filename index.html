@@ -1,0 +1,181 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>EnglishPro — Онлайн-школа английского языка</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Unbounded:wght@400;700;900&family=Inter:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/animations.css">
+    <link rel="stylesheet" href="css/components.css">
+</head>
+<body>
+    <!-- Custom Cursor -->
+    <div class="cursor"></div>
+    <div class="cursor-follower"></div>
+
+    <!-- Floating Background -->
+    <div class="floating-bg">
+        <div class="blob blob-1"></div>
+        <div class="blob blob-2"></div>
+        <div class="blob blob-3"></div>
+    </div>
+
+    <!-- Navigation -->
+    <nav class="navbar">
+        <div class="container nav-container">
+            <div class="logo">
+                <span class="logo-text">English</span>
+                <span class="logo-accent">Pro</span>
+            </div>
+            <button class="btn btn-primary" data-magnetic>Записаться</button>
+        </div>
+    </nav>
+
+    <!-- Hero Section -->
+    <section class="hero">
+        <div class="container hero-container">
+            <div class="hero-content">
+                <div class="hero-badge fade-in">ОНЛАЙН-ШКОЛА</div>
+                <h1 class="hero-title">
+                    <span class="title-line">Заговори на</span>
+                    <span class="title-line highlight">английском</span>
+                    <span class="title-line">за 30 дней</span>
+                </h1>
+                <p class="hero-subtitle fade-in-delay">
+                    Персональные занятия с носителями языка. 
+                    Гибкий график, проверенная методика, реальные результаты
+                </p>
+                <div class="hero-buttons fade-in-delay-2">
+                    <button class="btn btn-primary btn-large" data-magnetic>
+                        Начать бесплатно
+                        <span class="btn-arrow">→</span>
+                    </button>
+                    <button class="btn btn-secondary btn-large" data-magnetic>
+                        Узнать больше
+                    </button>
+                </div>
+            </div>
+            <div class="hero-visual">
+                <div class="visual-card card-1">
+                    <div class="card-icon">🎯</div>
+                    <div class="card-text">Результат</div>
+                </div>
+                <div class="visual-card card-2">
+                    <div class="card-icon">🌍</div>
+                    <div class="card-text">Носители</div>
+                </div>
+                <div class="visual-card card-3">
+                    <div class="card-icon">⚡</div>
+                    <div class="card-text">Быстро</div>
+                </div>
+            </div>
+        </div>
+        <div class="scroll-indicator">
+            <div class="mouse">
+                <div class="wheel"></div>
+            </div>
+            <span>Scroll down</span>
+        </div>
+    </section>
+
+    <!-- Stats Section -->
+    <section class="stats-section">
+        <div class="container">
+            <div class="stats-grid">
+                <div class="stat-card" data-count="10000">
+                    <div class="stat-number" data-target="10000">0</div>
+                    <div class="stat-label">Студентов</div>
+                    <div class="stat-suffix">+</div>
+                </div>
+                <div class="stat-card" data-count="95">
+                    <div class="stat-number" data-target="95">0</div>
+                    <div class="stat-label">Довольных клиентов</div>
+                    <div class="stat-suffix">%</div>
+                </div>
+                <div class="stat-card" data-count="50">
+                    <div class="stat-number" data-target="50">0</div>
+                    <div class="stat-label">Преподавателей</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Features Section -->
+    <section class="features-section">
+        <div class="container">
+            <h2 class="section-title">
+                <span class="title-deco"></span>
+                Почему выбирают нас
+                <span class="title-deco"></span>
+            </h2>
+            <div class="features-grid">
+                <div class="feature-card" data-tilt>
+                    <div class="feature-icon">🎓</div>
+                    <h3>Носители языка</h3>
+                    <p>Преподаватели из США, Великобритании и Канады с международными сертификатами</p>
+                    <div class="feature-hover"></div>
+                </div>
+                <div class="feature-card" data-tilt>
+                    <div class="feature-icon">⏰</div>
+                    <h3>Гибкий график</h3>
+                    <p>Занимайтесь в любое удобное время. Утро, день, вечер — вы выбираете</p>
+                    <div class="feature-hover"></div>
+                </div>
+                <div class="feature-card" data-tilt>
+                    <div class="feature-icon">🚀</div>
+                    <h3>Быстрый результат</h3>
+                    <p>Первые улучшения уже после 5 занятий. Видимый прогресс за 30 дней</p>
+                    <div class="feature-hover"></div>
+                </div>
+                <div class="feature-card" data-tilt>
+                    <div class="feature-icon">🎯</div>
+                    <h3>Персональный подход</h3>
+                    <p>Индивидуальная программа под ваши цели: работа, путешествия, экзамены</p>
+                    <div class="feature-hover"></div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- CTA Section -->
+    <section class="cta-section">
+        <div class="container">
+            <div class="cta-wrapper">
+                <h2 class="cta-title">Готовы начать?</h2>
+                <p class="cta-subtitle">Первый урок бесплатно. Оставьте заявку прямо сейчас</p>
+                <form class="cta-form" id="contactForm">
+                    <div class="form-group">
+                        <input type="text" class="form-input" placeholder="Ваше имя" required>
+                        <div class="input-border"></div>
+                    </div>
+                    <div class="form-group">
+                        <input type="email" class="form-input" placeholder="Email" required>
+                        <div class="input-border"></div>
+                    </div>
+                    <button type="submit" class="btn btn-primary btn-large btn-submit" data-magnetic>
+                        <span class="btn-text">Записаться</span>
+                        <div class="btn-loader"></div>
+                    </button>
+                </form>
+            </div>
+        </div>
+        <div class="cta-particles"></div>
+    </section>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <p>&copy; 2026 EnglishPro. Все права защищены.</p>
+        </div>
+    </footer>
+
+    <!-- Scripts -->
+    <script src="js/particles.js"></script>
+    <script src="js/cursor.js"></script>
+    <script src="js/animations.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
